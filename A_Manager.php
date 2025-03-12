@@ -8,13 +8,14 @@ Icon: /wp-content/plugins/mi-plugin/assets/images/mi_logo.webp
 */
 
 
+
 if (!defined('ABSPATH')) {
     exit; // Evita el acceso directo al archivo para proteger el sistema
 }
 
 
 
-// Función para registrar y cargar el archivo CSS en el frontend del sitio
+// Función para registrar y cargar el archivo CSS en el frontend del  sitio
 function mi_plugin_registrar_estilos() {
     wp_enqueue_style(
         'mi-plugin-estilos', // Identificador único para evitar conflictos con otros estilos
